@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>chose title</title>
+</head>
+<body>
+    <div class="container">
+        <div class="chose-title">
+            <div class="title1 box opacity">
+                <span class="span1 active-span">1  </span>
+                <span class="span2">Choose title</span>
+            </div>
+            <div class="title2 box">
+                <span class="span1">2  </span>
+                <span class="span2">Choose description</span>
+            </div>
+            <div class="title3 box">
+                <span class="span1">3  </span>
+                <span class="span2">Confirm data</span>
+            </div>
+        </div>
+        <div class="description">
+            <div class="dec-box">
+                <p id="desc">Choose title content</p>
+            </div>
+            <div class="div">
+                <div class="box1 btndiv active-visible">
+                    <button onclick="chose1()">Submit title</button>
+                </div>
+                <div class="box2 btndiv">
+                    <button onclick="chose3()">Back</button>
+                    <button onclick="chose2()">Submit description</button>       
+                </div>
+                <div class="box3 btndiv">
+                    <button onclick="chose1()">Go,to back</button>
+                    <button onclick="happy()">Yes,go ahead</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
